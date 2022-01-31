@@ -13,10 +13,10 @@ fn binary_search(k:i32)-> bool {
             return true;
         }
         if arr[tmp] > k {
-            r = tmp;
+            r = tmp - 1;
         }
         else {
-            l = tmp;
+            l = tmp + 1;
         }
     }
     return false;
