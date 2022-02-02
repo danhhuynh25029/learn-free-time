@@ -1,2 +1,6 @@
 # rust
 target
+# nim
+nimcache/
+nimblecache/
+htmldocs/
