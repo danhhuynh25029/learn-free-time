@@ -1,9 +1,9 @@
 object ISO8601{
     def main(args:Array[String]){
-        val date = args(0).split("T");
-        val time = date(1).split('+');
-        val arr_date = date(0).split("-");
-        val arr_time = time(0).split(":");
+        val date = args(0).split("T")
+        val time = date(1).split('+')
+        val arr_date = date(0).split("-")
+        val arr_time = time(0).split(":")
         for(i <- (arr_date.length - 1) to 0 by -1 ){
             val o = i match{
                 case 0 => "Year : " + arr_date(i)

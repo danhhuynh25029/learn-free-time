@@ -5,6 +5,12 @@ object main{
         for(i <- arr){
             println(i)
         }
+        // iterators
+        val car = Iterator("Danh","SHY")
+        while(car.hasNext){
+          println(car.next())
+        }
+        
     }
     // case
     def f(x:Any) : String =  x match {
